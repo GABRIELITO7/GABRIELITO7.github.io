@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:#2E5132;
+    color: #A5CC9D;
+}
+
+.posicionamento {
+    margin: 10% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.titulo {
+   font-size: 36px;
+   font-family: 'Krona One', sans-serif;;
+}
+
+
+.destaque__titulo {
+    color: #5AC14C
+}
+
+.paragrafo1 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoes_designer {
+    background-color: #5AC14C;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 60px;
+    text-decoration: none;
+    color: #2E5132;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;276=-90
+}
+
+
+
+
+
+
