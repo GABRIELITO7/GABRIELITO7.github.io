@@ -53,8 +53,64 @@ body {
     text-decoration: none;
     color: #2E5132;
     font-weight: 600;
-    font-family: 'Roboto', sans-serif;276=-90
+    font-family: 'Roboto', sans-serif;
 }
+
+.imagem {
+    width: 500px;
+}
+
+@media screen and (max-width: 768px){
+
+    .posicionamento {
+        margin: 10% 20%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .conteudo {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .titulo {
+        font-size: 24px;
+        font-family: 'Krona One', sans-serif;;
+     }
+
+     .paragrafo1 {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+     
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .botoes_designer {
+        background-color: #5AC14C;
+        border-radius: 16px;
+        font-size: 16px;
+        padding: 16px 100px;
+        text-decoration: none;
+        color: #2E5132;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .imagem{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+}
+
 
 
 
